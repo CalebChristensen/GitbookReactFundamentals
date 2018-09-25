@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* body */
+
+body {
+  padding: 15px;
+  background-image: url("http://getwallpapers.com/wallpaper/full/e/5/a/299879.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: Belleza;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+footer p{
+  margin-top: 0.8em!important;
+  margin-left: 1.5em;
+}
+
+/* main */
+
+.main {
+  background-color: white;
+  color: black;
+  height: 100%;
+  min-height: 100%;
+}
+
+.mainDiv {
+  margin: auto;
+  width: 90%;
+  padding: 5px;
+}
+
+.sidebar {
+  display: flex;
+  background-color: black;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: 'none';
+}
+
+/* Sidebar */
+
+.sidebar-list-styling{
+  padding-left: 50px;
+  padding-top: 15px;
+  width: 20%;
+  background-color: black;
+  color: white;
+}
+
+.sidebar-list a{
+  color: white;
+  padding: 0;
+}
+
+.sidebar-route{
+  flex: 1;
+  padding: '00px';
+}
+
+/* header */
+
+.header {
+  margin-top: 0.5em!important;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.header a {
+  color: white;
+}
+
+.header p {
+  margin-top: 0.8em!important;
+}
+
+/* COMPILER */
+.compiler-header {
+  display: block;
+  height: 5vh;
+  overflow: auto;
+  background-color: yellow;
+  color: red;
+  font-size: 28px;
+}
+.compiler-container {
+  height: 95vh;
+  display: flex;
+}
+pre{
+  background-color: #f8f8f8;
+}
+textarea {
+  height: 95vh;
+  width: 50%;
+  font-family: monospace;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  color: #222;
+}
+pre {
+  width: 50%;
+  font-family: monospace;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  color: #222;
+}
+textarea:focus {outline: 0;}
